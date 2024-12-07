@@ -1,0 +1,105 @@
+{
+	"cards": {
+		"7feb4780-26e0-4b7e-9c39-7a0ab25d0352": {
+			"_id": "7feb4780-26e0-4b7e-9c39-7a0ab25d0352",
+			"_ownerId": "8df0bc6a-f3dd-44e2-9597-8c641640861b",
+			"name": "Иван Радев",
+			"location": "Остров Мавриций, Мавриций",
+			"title": "Величествен син паун",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1691163725322-f44d04b3d0ee?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 46.83
+		},
+		"4eacfb3a-08b7-4e03-9d02-54a3d7fdbb4d": {
+			"_id": "4eacfb3a-08b7-4e03-9d02-54a3d7fdbb4d",
+			"_ownerId": "257acee6-160a-47e2-96f6-71ca6ddd54f7",
+			"name": "Виктор Стоянов",
+			"location": "Русия",
+			"title": "Патици в зимно езеро",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1613135491036-4ff924006283?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 52.83
+		},
+		"f9c4c9f3-1a59-48a2-8092-68f1f499789f": {
+			"_id": "f9c4c9f3-1a59-48a2-8092-68f1f499789f",
+			"_ownerId": "5157163e-3ea4-4927-a181-6f6467a3f100",
+			"name": "Йордан Иванов",
+			"location": "Родопи, България",
+			"title": "Пасящи коне",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1670591804625-197303847168?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 73.23
+		},
+		"10689d21-6c83-4255-a4f3-739407124352": {
+			"_id": "10689d21-6c83-4255-a4f3-739407124352",
+			"_ownerId": "743fff59-a21d-48c2-862b-764fe8be41c1",
+			"name": "Петя Николова",
+			"location": "Индонезия",
+			"title": "Група маймуни",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1708436137249-f335cdb2c698?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 48.31
+		},
+		"e07b78b7-1a26-4830-9825-11cf774824d7": {
+			"_id": "e07b78b7-1a26-4830-9825-11cf774824d7",
+			"_ownerId": "f1808570-b146-403e-8d09-deb8c73b0271",
+			"name": "Петър Трънчев",
+			"location": "Женева, Италия",
+			"title": "Пингвин върху скала",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1691753057784-6816d5c43bcb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 38.32
+		},
+		"ad4b27ec-c437-4306-9fe2-75127195f352": {
+			"_id": "ad4b27ec-c437-4306-9fe2-75127195f352",
+			"_ownerId": "4e991062-bd9c-45f1-a4a6-31a4a87797b9",
+			"name": "Анна Христова",
+			"location": "Австралия",
+			"title": "Спящ тигър",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1704852137886-2e36897bb064?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 28.32
+		},
+		"7427b45b-815a-4a2f-89a1-b7108cb3d2c7": {
+			"_id": "7427b45b-815a-4a2f-89a1-b7108cb3d2c7",
+			"_ownerId": "32e1630a-0e65-4987-ac89-9f55a3bc3afc",
+			"name": "Мария Златарева",
+			"location": "Австралия",
+			"title": "Спяща коала",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1704852149658-a183880b936b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 18.92
+		},
+		"b77a0cfb-5715-40b5-8286-06a94ebad7fc": {
+			"_id": "b77a0cfb-5715-40b5-8286-06a94ebad7fc",
+			"_ownerId": "1b5620b1-ec92-4d14-bbbd-8b0d666a6e81",
+			"name": "Стефани Георгиева",
+			"location": "Л'Алфас дел Пи, Испания",
+			"title": "Бял лебед",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1724925237104-9a2753cf9a69?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 12.32
+		},
+		"6993055f-7942-4562-9968-7cb47256da28": {
+			"_id": "6993055f-7942-4562-9968-7cb47256da28",
+			"_ownerId": "ae115c03-2eeb-4de7-ada7-1b351d496c3b",
+			"name": "Димитър Ангелов",
+			"location": "Западно крайбрежие на Корея",
+			"title": "Евразийски черен стридояд",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1689360386311-79515f62d3fc?q=80&w=1940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 16.27
+		},
+		"6993325f-7942-4562-9968-7c327243da28": {
+			"_id": "6993325f-7942-4562-9968-7c327243da28",
+			"_ownerId": "ae115c03-2eeb-4de7-ada7-1b351d496c3b",
+			"name": "Георги Цветков",
+			"location": "Абруцо, Италия",
+			"title": "Любопитна кафява лисица",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+			"imageUrl": "https://images.unsplash.com/photo-1604521241808-a4263e067d79?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"price": 26.27
+		}
+	},
+	"cart": {}
+}

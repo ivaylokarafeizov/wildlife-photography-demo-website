@@ -1,0 +1,10 @@
+#main {
+	display: flex;
+	flex-direction: column;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 100vh;
+	background-image: url('./assets/images/rhodopes.jpg');
+}

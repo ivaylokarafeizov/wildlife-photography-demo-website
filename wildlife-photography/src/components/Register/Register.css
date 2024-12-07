@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.register-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.register-form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	background: rgba(35, 30, 28, 0.7);
+	padding: 30px;
+	border-radius: 15px;
+	backdrop-filter: blur(15px);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.register-h3 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #bf8e66;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.register-label {
+	font-size: 18px;
+	color: #ab9481;
+	margin-bottom: 5px;
+}
+
+.normal {
+	display: flex;
+	flex-direction: row;
+}
+
+.register-input {
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	font-style: normal;
+	width: 80%;
+	padding: 12px 15px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #f7f4ea;
+	font-size: 16px;
+	outline: none;
+	transition: all 0.3s ease;
+}
+
+.register-input::placeholder {
+	color: #f7f4ea;
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.register-input:focus {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-bottom: 2px solid #c39d7d;
+}
+
+.double,
+.inputGroup {
+	text-align: center;
+	width: 90%;
+	gap: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.double .inputGroup {
+	flex-basis: 50%;
+}
+
+.double {
+	flex-direction: row;
+	align-items: center;
+	justify-content: stretch;
+}
+
+.register-btn {
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	font-style: normal;
+	width: 50%;
+	padding: 12px;
+	background-color: #bf8e66;
+	color: #231e1c;
+	font-size: 18px;
+	font-weight: 600;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+	margin-top: 15px;
+}
+
+.register-btn:hover {
+	background-color: #74675d;
+	color: #f7f4ea;
+}
+
+.register-actions {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+	gap: 20px;
+	cursor: pointer;
+	color: #f7f4ea;
+	padding: 10px;
+	border-radius: 30px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+.register-create-acc,
+.register-home {
+	text-decoration: none;
+	color: inherit;
+}
+
+.register-create-acc:hover,
+.register-home:hover {
+	color: rgba(255, 255, 255, 0.3);
+}
