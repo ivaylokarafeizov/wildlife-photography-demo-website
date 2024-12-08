@@ -37,11 +37,11 @@ export default function CardDetails() {
 				(item) => item._id === card._id
 			);
 
-			if (isItemInCart) {
-				alert('Артикулът беше успешно добавен в кошницата!');
+			if (!isItemInCart) {
+				alert('Този артикул вече е в кошницата ви!');
 			} else {
 				cartService.postCartItem(card).then(() => {
-					alert('Този артикул вече е в кошницата ви!');
+					alert('Артикулът беше успешно добавен в кошницата!');
 				});
 			}
 		});
