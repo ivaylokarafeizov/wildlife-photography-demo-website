@@ -7,13 +7,16 @@ import { cartServiceFactory } from '../../../services/cartService';
 export default function CardDetails() {
 	const navigate = useNavigate();
 	const [card, setCard] = useState([]);
+	const [cartItems, setCartItems] = useState([]);
 	const { cardId } = useParams();
 	const isOwner =
 		JSON.parse(localStorage.getItem('auth'))?._id === card._ownerId;
 	const cardsService = cardsServiceFactory();
+	const cartService = cartServiceFactory();
 
 	useEffect(() => {
 		cardsService.getCard(cardId).then(setCard);
+		cartService.getAllCartItems().then(setCartItems);
 	}, [cardId]);
 
 	const onDeleteClick = async () => {
@@ -30,21 +33,17 @@ export default function CardDetails() {
 	};
 
 	const handleAddToCart = () => {
-		const cartService = cartServiceFactory();
+		const isItemInCart = cartItems.some((item) => item._id === card._id);
 
-		cartService.getAllCartItems().then((cartItems) => {
-			const isItemInCart = cartItems.some(
-				(item) => item._id === card._id
-			);
+		if (isItemInCart) {
+			alert('Този артикул вече е в кошницата ви!');
+		} else {
+			cartService.postCartItem(card).then(() => {
+				alert('Артикулът беше успешно добавен в кошницата!');
 
-			if (!isItemInCart) {
-				alert('Този артикул вече е в кошницата ви!');
-			} else {
-				cartService.postCartItem(card).then(() => {
-					alert('Артикулът беше успешно добавен в кошницата!');
-				});
-			}
-		});
+				setCartItems((prevItems) => [...prevItems, card]);
+			});
+		}
 	};
 
 	const onEditClick = () => {
