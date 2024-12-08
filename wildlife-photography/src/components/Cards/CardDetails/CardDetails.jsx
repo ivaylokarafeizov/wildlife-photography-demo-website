@@ -9,7 +9,7 @@ export default function CardDetails() {
 	const [card, setCard] = useState([]);
 	const { cardId } = useParams();
 	const isOwner =
-		JSON.parse(localStorage.getItem('auth'))._id === card._ownerId;
+		JSON.parse(localStorage.getItem('auth'))?._id === card._ownerId;
 	const cardsService = cardsServiceFactory();
 
 	useEffect(() => {
